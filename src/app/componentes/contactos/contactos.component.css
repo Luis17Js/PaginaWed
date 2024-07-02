@@ -1,0 +1,72 @@
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+.footerlogo{
+    width: 320px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+   
+    z-index: 1;
+}
+.dropdown-content a {
+   
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+   
+}
+
+.black-radio {
+    appearance: none; /* Remove default browser styles */
+    background-color: #000; /* Set background color to black */
+    border-color: #000; /* Set border color to black */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    width: 16px; /* Optional: Adjust width as needed */
+    height: 16px; /* Optional: Adjust height as needed */
+}
+
+.black-radio:checked {
+    background-color: #000; /* Maintain black background for checked state */
+    border-color: #000; /* Maintain black border for checked state */
+}
+.logofrom1 img{
+    width: 380px; margin-left: 18px;
+}
+.como{
+    font-size: 50px; text-align: center; margin-top: 35px; margin-bottom: 45px;  
+}
+
+
+@media (width <= 740px){
+
+
+    .logofrom1 img{
+        width:300px ;
+        margin-left: 36px;
+    }
+
+    .texteria{
+        width: 358px;
+    }
+    
+    .como{
+        font-size:  30px;
+    }
+
+}
+

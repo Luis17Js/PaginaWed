@@ -1,0 +1,112 @@
+<header class="menu_wrapper">
+
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <!--Logo de empresa-->
+      <a class="navbar-brand ms-4" href="#"><img
+          src="/assets/imagenes/logo technology png.png" alt></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!--Menu de home -->
+          <li class="nav-item dropdown dropdown-mega position-static">
+            <a [routerLink]="['home']" class="nav-link  ms-4"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              data-bs-auto-close="outside"
+              style="color: white;">Home</a>
+
+          </li>
+          <!--Menu de servicios -->
+          <li class="nav-item dropdown dropdown-mega position-static">
+            <a class="nav-link dropdown-toggle ms-4"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" data-bs-auto-close="outside"
+              style="color: white;">Servicios</a>
+            <div class="dropdown-menu shadow">
+              <div class="mega-content px-md-4">
+                <div class="container-fluid">
+                  <div class="row">
+                    <!--Sub menus de servicios-->
+                    <div class="col-lg-3 py-4 px-xl-5 px-4"
+                      style="margin-top: -19px;">
+                      <a (click)="closeSubmenus()" [routerLink]="['servicios']"
+                        class="menus" style="text-decoration: none;">Servicios
+                        -></a>
+                      <div class="list-group">
+                        <a (click)="closeSubmenus()"
+                          [routerLink]="['aplicacione']" class="list-group-item"
+                          style="margin-top: 20px;">Servicios de
+                          aplicaciones</a>
+                        <a (click)="closeSubmenus()"
+                          [routerLink]="['automatizacion']"
+                          class="list-group-item">Automatizacion</a>
+                        <a (click)="closeSubmenus()"
+                          [routerLink]="['consultoria']"
+                          class="list-group-item">Consultoria de Negocio</a>
+                        <a (click)="closeSubmenus()" [routerLink]="['nube']"
+                          class="list-group-item">Infraestructura en la Nube</a>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3  py-4 px-xl-5 px-4">
+
+                      <div class="list-group submenu2 ">
+                        <a (click)="closeSubmenus()"
+                          [routerLink]="['ciberseguridad']"
+                          class="list-group-item mt-5">Ciberseguridad</a>
+                        <a (click)="closeSubmenus()" [routerLink]="['datos']"
+                          class="list-group-item">Datos y Analistas</a>
+                        <a (click)="closeSubmenus()"
+                          [routerLink]="['inteligencia']"
+                          class="list-group-item">Inteligecia Artificial</a>
+                        <a (click)="closeSubmenus()" [routerLink]="['soporte']"
+                          class="list-group-item">Soporte tecnico y
+                          Mantenimiento</a>
+
+                      </div>
+                    </div>
+                    <!--Sub menus de servicios-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!--Menu de proyectos -->
+          <li class="nav-item dropdown dropdown-mega position-static">
+            <a (click)="closeSubmenus()" [routerLink]="['trayectoria']"
+              class="nav-link  ms-4"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" data-bs-auto-close="outside"
+              style="color: white;">Proyectos</a>
+
+          </li>
+
+          <!--Menu de nosotros -->
+          <li class="nav-item dropdown dropdown-mega position-static">
+            <a (click)="closeSubmenus()" [routerLink]="['nosotros']" href="#"
+              class="nav-link  ms-4"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" data-bs-auto-close="outside"
+              style="color: white;">Nosotros</a>
+
+          </li>
+
+        </ul>
+        <!--Boton nosotros-->
+        <button [routerLink]="['contactos']"
+          style="padding: 10px; padding-top: 7px; padding-bottom: 7px; border-radius: 35px; background-color: rgb(7, 115, 189); color: white; border: none;"
+          class="me-4 boton2">Contactanos</button>
+      </div>
+
+    </div>
+  </nav>
+  <!--Termina Barra de navegacion-->
+</header>

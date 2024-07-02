@@ -1,0 +1,23 @@
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+.footerlogo{
+    width: 320px;
+  }
+.cartas{
+    background-color:rgb(0, 35, 75);
+    color: white;
+   
+}
+
+.nosotros{
+  margin-left: 230px
+}
+
+
+
+@media (width <= 740px){
+  .nosotros{
+    margin-left: 1px
+  }
+
+}

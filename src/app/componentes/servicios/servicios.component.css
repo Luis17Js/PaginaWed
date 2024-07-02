@@ -1,0 +1,79 @@
+@import 'swiper/swiper-bundle.css';
+
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+.swiper-slide {
+  width: 100%; /* Establecer el ancho de cada slide */
+ 
+  
+}
+
+.card {
+  width: 380px; /* Ancho deseado para cada tarjeta */
+  
+}
+
+.card img {
+  max-width: 100%;
+  
+}
+
+.card-body {
+  padding: 1rem;
+}  
+
+
+.swiper-wrapper{
+ margin-left: 84px;
+}
+
+.texto10{
+  color:rgb(255, 255, 255);
+ 
+  font-size: 16px;
+}
+
+
+.card-body{
+  background-color:rgb(0, 35, 75) ;
+}
+
+
+.card-text{
+  color: white;
+}
+
+.texto9{
+  font-size: 22px;
+}
+
+@media (width <= 740px){
+  .swiper-wrapper{
+    margin-left: 39px;
+  }
+  .card {
+    display: inline-block; /* Mostrar las tarjetas en línea */
+    width: 340px; /* Ancho deseado para cada tarjeta */
+    
+  }
+
+}
+
+
+.footerlogo{
+  width: 320px;
+}
+
+
+.botoncontacto{
+  border-radius: 10px;
+          border: 0;
+          background-color:rgb(230, 182, 21);
+          color: rgb(0, 0, 0);
+          
+          padding: 11px 14px;
+          font-size: 15px;
+          cursor: pointer;
+          
+          font-weight: bold;
+}
